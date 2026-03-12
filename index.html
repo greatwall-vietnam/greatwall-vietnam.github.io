@@ -1,81 +1,72 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh">
 
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>中国石化长城润滑油越南代理</title>
+<title>SINOPEC 长城润滑油越南代理</title>
 
 <style>
 
 body{
 margin:0;
-font-family:Arial,Microsoft YaHei;
-background:#f5f5f5;
+font-family:Arial;
 }
 
-header{
-background:#c40000;
+/* 顶部导航 */
+
+.nav{
+background:#d90000;
 color:white;
-padding:30px;
-text-align:center;
-font-size:30px;
+display:flex;
+justify-content:space-between;
+padding:15px 40px;
+align-items:center;
 }
 
-nav{
-background:#222;
-padding:10px;
-text-align:center;
-}
-
-nav a{
+.menu a{
 color:white;
 margin:0 15px;
 text-decoration:none;
 font-size:16px;
 }
 
+/* 横幅 */
+
 .banner{
-height:350px;
-background:url("https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc") center;
-background-size:cover;
+height:420px;
+background:url("https://images.unsplash.com/photo-1563720223185-11003d516935") center/cover;
 display:flex;
 align-items:center;
 justify-content:center;
 color:white;
-font-size:36px;
-font-weight:bold;
+text-align:center;
 }
 
-.container{
-width:90%;
-max-width:1100px;
-margin:auto;
-padding:40px 0;
+.banner h1{
+font-size:40px;
 }
 
-.products{
+.banner p{
+font-size:20px;
+}
+
+/* 优势 */
+
+.features{
 display:flex;
-flex-wrap:wrap;
-gap:20px;
 justify-content:center;
+gap:80px;
+padding:60px;
+text-align:center;
 }
 
-.card{
-background:white;
-width:250px;
-padding:20px;
-border-radius:10px;
-text-align:center;
-box-shadow:0 0 10px rgba(0,0,0,0.1);
+.feature{
+width:200px;
 }
 
-.contact{
-background:#222;
-color:white;
-text-align:center;
-padding:40px;
+.feature img{
+width:60px;
+margin-bottom:10px;
 }
 
 </style>
@@ -84,61 +75,66 @@ padding:40px;
 
 <body>
 
-<header>
-中国石化长城润滑油 · 越南代理
-</header>
+<!-- 顶部导航 -->
 
-<nav>
+<div class="nav">
+
+<div style="font-size:22px;font-weight:bold">
+SINOPEC
+</div>
+
+<div class="menu">
 <a href="index.html">首页</a>
-<a href="products.html">产品中心</a>
-<a href="about.html">公司介绍</a>
+<a href="about.html">介绍</a>
+<a href="products.html">产品</a>
 <a href="contact.html">联系我们</a>
-</nav>
+<a href="#">中文 / Tiếng Việt</a>
+</div>
+
+</div>
+
+
+<!-- 横幅 -->
 
 <div class="banner">
-工业润滑油供应商
-</div>
 
-<div class="container">
-
-<h2 style="text-align:center">主要产品</h2>
-
-<div class="products">
-
-<div class="card">
-<h3>液压油</h3>
-<p>HM32 / HM46 / HM68</p>
-</div>
-
-<div class="card">
-<h3>齿轮油</h3>
-<p>CKD150 / CKD220</p>
-</div>
-
-<div class="card">
-<h3>压缩机油</h3>
-<p>DAA / DAB</p>
-</div>
-
-<div class="card">
-<h3>润滑脂</h3>
-<p>工业润滑脂</p>
+<div>
+<h1>中国石化长城润滑油</h1>
+<p>越南工业润滑油供应商</p>
 </div>
 
 </div>
 
+
+<!-- 优势 -->
+
+<div class="features">
+
+<div class="feature">
+<img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png">
+<h3>优质</h3>
+<p>高品质工业润滑油</p>
 </div>
 
-<div class="contact">
+<div class="feature">
+<img src="https://cdn-icons-png.flaticon.com/512/929/929564.png">
+<h3>价格优惠</h3>
+<p>直接供应更优惠</p>
+</div>
 
-<h2>联系我们</h2>
+<div class="feature">
+<img src="https://cdn-icons-png.flaticon.com/512/854/854878.png">
+<h3>广泛分销网络</h3>
+<p>越南多地区供货</p>
+</div>
 
-<p>联系人：王先生</p>
-
-<p>电话 / WhatsApp：+84 XXX XXX XXX</p>
+<div class="feature">
+<img src="https://cdn-icons-png.flaticon.com/512/724/724664.png">
+<h3>24小时服务</h3>
+<p>随时支持客户</p>
+</div>
 
 </div>
 
 </body>
-
 </html>
